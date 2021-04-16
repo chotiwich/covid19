@@ -1,0 +1,62 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,300;1,200&family=Prompt:wght@200&display=swap");
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+body {
+  background-image: url("https://static1.bmbfcluster.de/3/5/6/9/9_fdd0949ce4e69dd/35699_372bb3725a103d7_1_teg.jpg");
+}
+
+.bg-img {
+  opacity: 0.1;
+}
+.margin-topic {
+  margin-top: 30px;
+  padding: 30px;
+}
+.margin-date {
+  margin-bottom: 100px;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Mitr", sans-serif;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.text-position {
+  text-align: center;
+  color: white;
+  font-family: "Kanit", sans-serif;
+  /* font-size: 30px; */
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

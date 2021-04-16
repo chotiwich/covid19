@@ -1,0 +1,25 @@
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-clip: border-box;
+  border: 10px solid white;
+  border-radius: 50px;
+  margin: 10px;
+  text-align: center;
+}
+
+.bg-Confirmed {
+  background-color: #ea5771 !important;
+}
+.bg-Recovered {
+  background-color: #039245 !important;
+}
+.bg-Hospitalized {
+  background-color: #fdc600 !important;
+}
+.bg-Deaths {
+  background-color: #d22d36 !important;
+}
